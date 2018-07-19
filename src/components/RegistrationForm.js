@@ -1,5 +1,10 @@
 class RegistrationForm extends React.Component
   render() {
-    return ()
+    return (
+      <form>
+        <input type='text'></input>
+        <input type='password'></input>
+      </form>
+    )
   }
 end
